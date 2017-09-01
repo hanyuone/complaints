@@ -26,8 +26,8 @@ This is what I hate about Java:
 
   ```java
   glfwSetKeyCallback(window, (window, key, scancode, action, mods) -> {
-			if ( key == GLFW_KEY_ESCAPE && action == GLFW_RELEASE )
-				  glfwSetWindowShouldClose(window, true);
+      if ( key == GLFW_KEY_ESCAPE && action == GLFW_RELEASE )
+	  glfwSetWindowShouldClose(window, true);
   });
   
   /* some code later */
